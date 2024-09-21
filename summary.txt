@@ -5,7 +5,12 @@ CMD
 
 
 PowerShell
+Get-Service -Name wind*
+Get-Service -Name LanmanServer
+Test-NetConnection -ComputerName google.com
 
+Encuentre los cinco procesos que usan más memoria:
+ps | sort –p ws | select –last 5
 
 
 
