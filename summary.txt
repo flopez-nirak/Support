@@ -1,0 +1,17 @@
+Resumen de comandos
+
+CMD
+
+
+
+PowerShell
+
+
+
+
+ref:
+https://www.computerweekly.com/es/consejo/25-principales-comandos-de-Windows-PowerShell-para-administradores-de-Windows
+
+
+
+
