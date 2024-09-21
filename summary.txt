@@ -12,6 +12,11 @@ Test-NetConnection -ComputerName google.com
 Encuentre los cinco procesos que usan más memoria:
 ps | sort –p ws | select –last 5
 
+Obtenga información sobre la fabricación y modelo de una computadora:
+Get-WmiObject -Class Win32_ComputerSystem
+
+Obtenga información sobre la BIOS de la computadora actual:
+Get-WmiObject -Class Win32_BIOS -ComputerName .
 
 
 ref:
