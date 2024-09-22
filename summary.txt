@@ -30,6 +30,7 @@ Get-WmiObject -Class Win32_BIOS -ComputerName .
   Test-NetConnection 69.20.59.83 -Port 443    --Test-NetConnection [FQDN/IP Address] -Port [port number]
   while ($true) { "$(Test-Connection -ComputerName google.cl -Quiet)" }
 
+  curl google.cl
 
 
 
@@ -50,6 +51,6 @@ https://daniellop.com/listar-en-tabla-visual-desde-powershell/
 https://daniellop.com/ejecutar-scripts-en-powershell/
 https://waytoit.wordpress.com/2013/08/16/ps-wifi/
 https://support.huaweicloud.com/intl/es-us/usermanual-bms/bms_01_0075.html
+https://github.com/PowerShell/PowerShell/issues/21269
 
-
-
+https://www.carehart.org/blog/2023/10/1/testing_port_reachability_with_other_than_telnet  --curl
