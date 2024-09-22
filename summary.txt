@@ -21,7 +21,11 @@ Get-WmiObject -Class Win32_BIOS -ComputerName .
 
 
 ::: Networking
+  Get-NetAdapterStatistics
+  Get-NetIPConfiguration
   get-netadapter
+  Get-NetAdapter -Name Wi-Fi
+  Get-NetAdapter -Name Wi-Fi | Disable-NetAdapter   --Enable-NetAdapter
   Get-NetIPAddress
   Test-NetConnection 69.20.59.83 -Port 443    --Test-NetConnection [FQDN/IP Address] -Port [port number]
   while ($true) { "$(Test-Connection -ComputerName google.cl -Quiet)" }
@@ -32,6 +36,8 @@ Get-WmiObject -Class Win32_BIOS -ComputerName .
 ref:
 https://daniellop.com/20-principales-comandos-genericos-de-powershell-para-windows/
 https://www.computerweekly.com/es/consejo/25-principales-comandos-de-Windows-PowerShell-para-administradores-de-Windows
+https://www.maquinasvirtuales.eu/powershell-comandos-para-extraer-hardware/
+
 https://care.acronis.com/s/article/72714-Using-Test-NetConnection-to-Test-Open-Ports?language=en_US
 https://support.3dsystems.com/s/article/Test-connection-between-client-and-server-PC?language=en_US
 https://www.linkedin.com/pulse/use-powershell-test-port-connectivity-run-network-komarovskiy-mba/
@@ -40,6 +46,10 @@ https://www.simplescripts.de/tcp-port-check-powershell.html
 https://askme4tech.com/how-use-test-netconnection-troubleshoot-connectivity-issues
 https://ss64.com/ps/get-netadapter.html
 
+https://daniellop.com/listar-en-tabla-visual-desde-powershell/
+https://daniellop.com/ejecutar-scripts-en-powershell/
+https://waytoit.wordpress.com/2013/08/16/ps-wifi/
+https://support.huaweicloud.com/intl/es-us/usermanual-bms/bms_01_0075.html
 
 
 
