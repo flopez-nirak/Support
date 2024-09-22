@@ -33,6 +33,7 @@ Get-WmiObject -Class Win32_BIOS -ComputerName .
   Get-NetTCPConnection -State Listen  --Established
 
   curl google.cl
+  curl http://wttr.in/LOCATION
   https://answers.microsoft.com/en-us/windows/forum/all/cant-browse-but-can-ping-ok/6b9de489-cfa8-4c10-b02d-03239d492e53
 
 
@@ -60,6 +61,7 @@ https://support.huaweicloud.com/intl/es-us/usermanual-bms/bms_01_0075.html
 https://github.com/PowerShell/PowerShell/issues/21269
 
 https://www.carehart.org/blog/2023/10/1/testing_port_reachability_with_other_than_telnet  --curl
+https://www.ionos.es/digitalguide/servidores/herramientas/introduccion-a-curl-en-windows/
 
 https://answers.microsoft.com/en-us/windows/forum/all/cant-browse-but-can-ping-ok/6b9de489-cfa8-4c10-b02d-03239d492e53
 https://superuser.com/posts/1425537/edit  --Reset TCP/IP and Winsock command or module for PowerShell
