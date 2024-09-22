@@ -31,13 +31,15 @@ Get-WmiObject -Class Win32_BIOS -ComputerName .
   while ($true) { "$(Test-Connection -ComputerName google.cl -Quiet)" }
 
   curl google.cl
-
+  https://answers.microsoft.com/en-us/windows/forum/all/cant-browse-but-can-ping-ok/6b9de489-cfa8-4c10-b02d-03239d492e53
 
 
 ref:
 https://daniellop.com/20-principales-comandos-genericos-de-powershell-para-windows/
 https://www.computerweekly.com/es/consejo/25-principales-comandos-de-Windows-PowerShell-para-administradores-de-Windows
 https://www.maquinasvirtuales.eu/powershell-comandos-para-extraer-hardware/
+https://arnav.au/2023/11/07/20-netsh-commands-with-examples/
+https://kak.kornev-online.net/FILES/KAK%20-%20Netsh%2031%20Most%20Useful%20netsh%20command%20examples%20in%20Windows.pdf
 
 https://care.acronis.com/s/article/72714-Using-Test-NetConnection-to-Test-Open-Ports?language=en_US
 https://support.3dsystems.com/s/article/Test-connection-between-client-and-server-PC?language=en_US
@@ -54,3 +56,7 @@ https://support.huaweicloud.com/intl/es-us/usermanual-bms/bms_01_0075.html
 https://github.com/PowerShell/PowerShell/issues/21269
 
 https://www.carehart.org/blog/2023/10/1/testing_port_reachability_with_other_than_telnet  --curl
+
+https://answers.microsoft.com/en-us/windows/forum/all/cant-browse-but-can-ping-ok/6b9de489-cfa8-4c10-b02d-03239d492e53
+https://superuser.com/posts/1425537/edit  --Reset TCP/IP and Winsock command or module for PowerShell
+
