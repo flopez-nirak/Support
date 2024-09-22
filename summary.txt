@@ -30,6 +30,7 @@ Get-WmiObject -Class Win32_BIOS -ComputerName .
 
 
 ref:
+https://daniellop.com/20-principales-comandos-genericos-de-powershell-para-windows/
 https://www.computerweekly.com/es/consejo/25-principales-comandos-de-Windows-PowerShell-para-administradores-de-Windows
 https://care.acronis.com/s/article/72714-Using-Test-NetConnection-to-Test-Open-Ports?language=en_US
 https://support.3dsystems.com/s/article/Test-connection-between-client-and-server-PC?language=en_US
