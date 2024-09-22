@@ -73,3 +73,8 @@ https://tecnografos.es/2023/03/01/ver-los-puertos-abiertos-de-tu-equipo-con-powe
 
 https://ask.wireshark.org/question/12713/port-5228-shows-hpvroom-when-it-is-chrome/
 https://mytcpip.com/ad-mapear-con-bat-y-powershell/  --mapear unidades de red
+
+
+https://www.arsys.es/blog/utilizar-comando-scp    --Comando SCP: Cómo transferir archivos hacia y desde los servidores
+
+
