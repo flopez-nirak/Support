@@ -30,6 +30,8 @@ Get-WmiObject -Class Win32_BIOS -ComputerName .
   Test-NetConnection 69.20.59.83 -Port 443    --Test-NetConnection [FQDN/IP Address] -Port [port number]
   while ($true) { "$(Test-Connection -ComputerName google.cl -Quiet)" }
 
+  Get-NetTCPConnection -State Listen  --Established
+
   curl google.cl
   https://answers.microsoft.com/en-us/windows/forum/all/cant-browse-but-can-ping-ok/6b9de489-cfa8-4c10-b02d-03239d492e53
 
@@ -40,6 +42,8 @@ https://www.computerweekly.com/es/consejo/25-principales-comandos-de-Windows-Pow
 https://www.maquinasvirtuales.eu/powershell-comandos-para-extraer-hardware/
 https://arnav.au/2023/11/07/20-netsh-commands-with-examples/
 https://kak.kornev-online.net/FILES/KAK%20-%20Netsh%2031%20Most%20Useful%20netsh%20command%20examples%20in%20Windows.pdf
+https://www.ediciones-eni.com/libro/windows-powershell-administrar-puestos-cliente-windows-2a-edicion-9782409030390/buscar-y-recopilar-informacion
+
 
 https://care.acronis.com/s/article/72714-Using-Test-NetConnection-to-Test-Open-Ports?language=en_US
 https://support.3dsystems.com/s/article/Test-connection-between-client-and-server-PC?language=en_US
@@ -60,3 +64,6 @@ https://www.carehart.org/blog/2023/10/1/testing_port_reachability_with_other_tha
 https://answers.microsoft.com/en-us/windows/forum/all/cant-browse-but-can-ping-ok/6b9de489-cfa8-4c10-b02d-03239d492e53
 https://superuser.com/posts/1425537/edit  --Reset TCP/IP and Winsock command or module for PowerShell
 
+https://tecnografos.es/2023/03/01/ver-los-puertos-abiertos-de-tu-equipo-con-powershell/
+
+https://ask.wireshark.org/question/12713/port-5228-shows-hpvroom-when-it-is-chrome/
