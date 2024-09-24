@@ -4,6 +4,8 @@ CMD
 
 
 
+
+
 ::: PowerShell
 
 Get-Service -Name wind*
