@@ -6,6 +6,9 @@ dotnet build --help
 dotnet build --help
 dotnet new mvc -n MiAppWeb
 dotnet new console --framework net6.0 --use-program-main
+dotnet publish -c Release -r win-x64 --self-contained --p:PublishTrimmed=true
+
+
 ::: PowerShell
 
 Get-Service -Name wind*
