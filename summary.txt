@@ -2,7 +2,7 @@ Resumen de comandos
 
 CMD
 
-
+dotnet build --help
 
 
 
