@@ -5,7 +5,7 @@ CMD
 dotnet build --help
 dotnet build --help
 dotnet new mvc -n MiAppWeb
-
+dotnet new console --framework net6.0 --use-program-main
 ::: PowerShell
 
 Get-Service -Name wind*
