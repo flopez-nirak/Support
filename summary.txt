@@ -43,6 +43,12 @@ Get-WmiObject -Class Win32_BIOS -ComputerName .
   curl http://wttr.in/LOCATION
   https://answers.microsoft.com/en-us/windows/forum/all/cant-browse-but-can-ping-ok/6b9de489-cfa8-4c10-b02d-03239d492e53
 
+::: Seguridad/Certiificados
+  How to Create Self-signed Certificate using PowerShell
+  https://blog.admindroid.com/how-to-create-self-signed-certificate-using-powershell/
+
+
+
 
 ref:
 https://daniellop.com/20-principales-comandos-genericos-de-powershell-para-windows/
