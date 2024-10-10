@@ -11,6 +11,9 @@ dotnet new console --framework net6.0 --use-program-main
 dotnet publish -c Release -r win-x64 --self-contained --p:PublishTrimmed=true
 dotnet new console --framework net6.0 --use-program-main
 
+ dotnet new console -n MiProyectoConsolaConFormulario
+dotnet new console -n MiProyectoConsolaConFormulario --use-program-main
+
 ::: PowerShell
 
 Get-Service -Name wind*
