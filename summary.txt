@@ -14,7 +14,7 @@ dotnet
 
 --use-program-main
 
-
+netsh int ipv4 set dynamicport tcp start=49152 num=16384
 
  dotnet new console -n MiProyectoConsolaConFormulario
  dotnet new console -n MiProyectoConsolaConFormulario --use-program-main
