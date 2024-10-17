@@ -14,6 +14,13 @@ dotnet
 
 --use-program-main
 netstat -ano | findstr listening; 55550 time
+
+  Protocolo: TCP o UDP
+  Dirección local
+  Dirección remota
+  Estado del puerto (ej., LISTENING, TIME_WAIT, etc.)
+  PID (ID del proceso)
+
 netsh int ipv4 set dynamicport tcp start=49152 num=16384
 
  dotnet new console -n MiProyectoConsolaConFormulario
