@@ -114,3 +114,5 @@ https://www.arsys.es/blog/utilizar-comando-scp    --Comando SCP: Cómo transferi
   los servidores
 https://www.enmimaquinafunciona.com/pregunta/165026/como-convierto-mi-formato-csv-en-un-archivo-bat-automatico-arrastrar-y-soltar
 
+cyber
+https://roadmap.sh/cyber-security
