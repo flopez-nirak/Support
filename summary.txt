@@ -13,7 +13,8 @@ dotnet new console --framework net6.0 --use-program-main
 dotnet 
 dotnet new console -n HolaMundoApp
 
-
+javac HelloWorld.java
+java HelloWorld
 code .
 
 
