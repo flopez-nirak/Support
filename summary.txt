@@ -14,7 +14,7 @@ dotnet
 dotnet new console -n HolaMundoApp
 
 
-dot .
+code .
 
 
 --use-program-main
