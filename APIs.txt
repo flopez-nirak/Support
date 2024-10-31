@@ -7,3 +7,6 @@ Desacoplamiento: Cada microservicio es autónomo. En Python, puedes escribir un 
 
 Escalabilidad: Con Python, cada microservicio puede escalarse independientemente al ejecutar instancias adicionales en contenedores o servidores.
 
+Tolerancia a Fallos: Python permite configurar servicios de retry, timeouts, y patrones de diseño resilientes (por ejemplo, el patrón Circuit Breaker).
+
+Despliegue Independiente: Puedes empaquetar cada microservicio de Python en un contenedor Docker para simplificar su despliegue y ejecución en la nube.
