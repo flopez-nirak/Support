@@ -3,3 +3,6 @@
 
 fat controler
 
+Desacoplamiento: Cada microservicio es autónomo. En Python, puedes escribir un microservicio en un archivo o conjunto de archivos que maneje una única responsabilidad (e.g., gestión de usuarios).
+
+Escalabilidad: Con Python, cada microservicio puede escalarse independientemente al ejecutar instancias adicionales en contenedores o servidores.
