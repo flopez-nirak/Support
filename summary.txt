@@ -26,6 +26,8 @@ ff ff ff ff ff
 
 pip install requests
 python -m pip list
+pip install Flask SQLAlchemy
+
 
 --use-program-main
 netstat -ano | findstr listening; 55550 time
