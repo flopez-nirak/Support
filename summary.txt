@@ -28,6 +28,10 @@ pip install requests
 python -m pip list
 pip install Flask SQLAlchemy
 
+microservice_app/
+├── app.py            # Archivo principal con el CRUD de Flask
+├── requirements.txt  # Archivo para las dependencias
+└── db.sqlite         # Base de datos SQLite
 
 --use-program-main
 netstat -ano | findstr listening; 55550 time
