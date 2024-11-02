@@ -24,6 +24,8 @@ code .
 ff ff ff ff ff
 ff ff ff ff ff
 
+pip install requests
+
 --use-program-main
 netstat -ano | findstr listening; 55550 time
 
