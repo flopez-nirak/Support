@@ -45,9 +45,12 @@ curl -i -H "Authorization: Bearer {token}" https://localhost:{port}/swagger/v1/s
 winget
 winget list
 
-https://jqlang.github.io/jq/download/
-winget install jqlang.jq
-jq .trabajadores empleados.json
+::: jq
+  https://jqlang.github.io/jq/download/
+  https://vergaracarmona.es/guia-del-comando-jq/
+  
+  winget install jqlang.jq
+  jq .trabajadores empleados.json
 
   Protocolo: TCP o UDP
   Dirección local
