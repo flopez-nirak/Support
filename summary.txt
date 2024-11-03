@@ -43,8 +43,11 @@ netstat -ano | findstr listening; 55550 time
 curl -i -H "Authorization: Bearer {token}" https://localhost:{port}/swagger/v1/swagger.json
 
 winget
-
 winget list
+
+https://jqlang.github.io/jq/download/
+winget install jqlang.jq
+jq .trabajadores empleados.json
 
   Protocolo: TCP o UDP
   Dirección local
