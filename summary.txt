@@ -16,6 +16,8 @@ dotnet
 dotnet clean
 npm install
 curl 
+pip install Flask SQLAlchemy
+
 
 javac HelloWorld.java
 java HelloWorld
