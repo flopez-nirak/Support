@@ -1,1 +1,12 @@
 
+
+- crear proyectos
+  dotnet new web -o HolaMundoApi  // crear una nueva aplicación con una Minimal API:
+
+  asdasd
+
+- asas
+  asdasd
+
+
+
