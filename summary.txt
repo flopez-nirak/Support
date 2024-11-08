@@ -15,6 +15,7 @@ dotnet new console -n HolaMundoApp
 dotnet
 dotnet clean
 npm install
+
 curl 
 pip install Flask SQLAlchemy
   from flask import Flask
