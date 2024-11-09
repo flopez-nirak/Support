@@ -3,7 +3,11 @@
 - crear proyectos
   dotnet new web -o HolaMundoApi  // crear una nueva aplicación con una Minimal API:
 
-  asdasd
+- Instalar el certificado de desarrollo: Ejecuta este comando en la terminal para instalar el certificado HTTPS de desarrollo en tu sistema:
+  
+  dotnet dev-certs https --trust
+
+  Aceptar el certificado: En algunos sistemas, puede abrirse una ventana para aceptar el certificado. Acepta la instalación para que el certificado funcione en todos los navegadores.
 
 - asas
   asdasd
