@@ -20,7 +20,15 @@ dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
 dotnet clean
 dotnet restore
 
+- swagger
+  1. dotnet add package Swashbuckle.AspNetCore
+  2. .csproj -> <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  3. var builder = WebApplication.CreateBuilder(args);
+      builder.Services.AddControllers();
+      builder.Services.AddSwaggerGen(); // Aquí debe funcionar sin errores
+  4. dotnet restore
 
+  
 
 
 
