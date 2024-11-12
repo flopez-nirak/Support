@@ -12,6 +12,13 @@
 - asas
   asdasd
 
+dotnet add package Microsoft.EntityFrameworkCore --version 6.0.0
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 6.0.0
+dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 6.0.0
+
+
+
 
 dotnet remove package Microsoft.AspNetCore.Authentication.JwtBearer
 dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
