@@ -31,6 +31,11 @@ dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
 dotnet clean
 dotnet restore
 dotnet list package
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+
+
 - swagger
   1. dotnet add package Swashbuckle.AspNetCore
   2. .csproj -> <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
