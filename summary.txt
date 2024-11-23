@@ -161,3 +161,11 @@ cyber
 https://roadmap.sh/cyber-security
 https://pauljerimy.com/it-career-roadmap/
 
+// Actualizar estado de tarea
+function updateTaskStatus(taskId, newStatus) {
+    const task = tasks.find((task) => task.id == taskId);
+    if (task) {
+        task.status = newStatus;
+        alert(`Task "${task.name}" updated to status "${newStatus}"`);
+    }
+}
