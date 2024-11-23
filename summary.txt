@@ -161,6 +161,18 @@ cyber
 https://roadmap.sh/cyber-security
 https://pauljerimy.com/it-career-roadmap/
 
+
+
+// Mapa de colores para cada estado
+const statusColors = {
+    "Not Started": "#ffc107", // Amarillo
+    "In Progress": "#17a2b8", // Azul
+    "Completed": "#28a745", // Verde
+    "On Hold": "#6c757d", // Gris
+    "Cancelled": "#dc3545", // Rojo
+};
+
+
 // Actualizar estado de tarea
 function updateTaskStatus(taskId, newStatus) {
     const task = tasks.find((task) => task.id == taskId);
