@@ -12,6 +12,10 @@ dotnet new console --framework net6.0 --use-program-main
 
   Aceptar el certificado: En algunos sistemas, puede abrirse una ventana para aceptar el certificado. Acepta la instalación para que el certificado funcione en todos los navegadores.
 
+
+dotnet restore
+
+
 - asas
   asdasd
 
