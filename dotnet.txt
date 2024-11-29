@@ -14,7 +14,7 @@ dotnet new console --framework net6.0 --use-program-main
 
 
 dotnet restore
-
+dotnet add package Microsoft.Extensions.Localization
 
 - asas
   asdasd
