@@ -6,6 +6,12 @@ dotnet new console --framework net6.0 --use-program-main
 
   dotnet new web -o HolaMundoApi  // crear una nueva aplicación con una Minimal API:
 
+dotnet new webapp -o SignalRApp
+dotnet add package Microsoft.AspNetCore.SignalR  Agrega el paquete SignalR al proyecto: Instala el paquete de SignalR:
+
+
+
+
 - Instalar el certificado de desarrollo: Ejecuta este comando en la terminal para instalar el certificado HTTPS de desarrollo en tu sistema:
   
   dotnet dev-certs https --trust
