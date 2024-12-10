@@ -2,3 +2,4 @@
 docker compose version
 docker compose
 docker run -it ubuntu bash
+docker pull nginx:latest
