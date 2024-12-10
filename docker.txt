@@ -1,3 +1,4 @@
 
 docker compose version
 docker compose
+docker run -it ubuntu bash
