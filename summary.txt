@@ -84,7 +84,7 @@ Get-Service -Name LanmanServer
 Get-Service -Name "iisadmin" | Format-List -Property Name, DependentServices
 Stop-Service -Name "iisadmin" -Force -Confirm
 Get-Service -DisplayName "telnet" | Stop-Service
-
+https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-service?view=powershell-7.4
 
 Test-NetConnection -ComputerName google.com
 
