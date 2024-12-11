@@ -80,6 +80,12 @@ python -m pip list
 
 Get-Service -Name wind*
 Get-Service -Name LanmanServer
+
+Get-Service -Name "iisadmin" | Format-List -Property Name, DependentServices
+Stop-Service -Name "iisadmin" -Force -Confirm
+Get-Service -DisplayName "telnet" | Stop-Service
+
+
 Test-NetConnection -ComputerName google.com
 
 Encuentre los cinco procesos que usan más memoria:
