@@ -4,3 +4,5 @@ docker compose
 docker run -it ubuntu bash
 docker pull nginx:latest
 docker volume ls
+
+https://www.youtube.com/shorts/HNqSUfp8j3g
