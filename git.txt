@@ -1,2 +1,4 @@
 it diff --staged
 git diff HEAD ruta/al/archivo.txt
+git reflog muestra el historial de todos los HEAD
+git checkout HEAD@{2} restaura un estado previo.
