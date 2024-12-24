@@ -1,1 +1,2 @@
 it diff --staged
+git diff HEAD ruta/al/archivo.txt
