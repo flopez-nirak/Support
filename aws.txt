@@ -1,8 +1,11 @@
-https://us-east-1.console.aws.amazon.com/billing/home#/freetier
+https://www.youtube.com/watch?v=QJJZeiVDPoohttps://us-east-1.console.aws.amazon.com/billing/home#/freetier
 
 
 https://www.youtube.com/watch?v=bEdaywcuo0M
 https://www.youtube.com/watch?v=L3C6UHxJSbo&t=39s
+
+Me equivoqué con Vercel: Serverless Servers
+https://www.youtube.com/watch?v=QJJZeiVDPoo
 
 
 https://world.hey.com/dhh
