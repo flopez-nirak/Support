@@ -1,1 +1,6 @@
+https://status.openai.com/
+support@openai.com
+
+https://help.openai.com/en/collections/3742473-chatgpt
+https://platform.openai.com/docs/concepts
 
