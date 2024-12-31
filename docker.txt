@@ -7,7 +7,8 @@ docker volume ls
 
 Establecer Variables de Entorno en un Contenedor
 docker run -d --name app -e ENV=produccion nginx
-
+docker network connect <nombre_red> <nombre_contenedor>
+docker run -d --name <nombre_contenedor> -e <variable>=<valor> <imagen>
 
 comandos avanzados:
 Como reiniciar un contenedor de docker 
