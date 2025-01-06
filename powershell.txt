@@ -1,4 +1,7 @@
 
+
+get-process 
+
 Get-Service "http","usbstor","spooler"
 Get-Service | Where-Object {"http","usbstor","spooler" -contains $_.Name}
 
