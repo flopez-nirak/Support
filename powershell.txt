@@ -1,4 +1,7 @@
-
+	
+Stop-Service -Name "Spooler"
+Start-Service -Name "Spooler"
+Restart-Service -Name "Spooler"
 
 get-process 
 
@@ -11,6 +14,13 @@ Get-Service | Where-Object {"http","usbstor","spooler" -contains $_.Name}
 Get-Service -RequiredServices | select -Unique DisplayName | ? {$_.DisplayName -like "Http*" }
 
 Get-Service -Name com.docker.service
+
+	
+Get-Service -Name 'wuauserv' | Select-Object Name, StartType	
+Get-Service | Where-Object { $_.Status -eq "Running" }	
+Get-Service -Name "Spooler" | Select-Object DependentServices, ServicesDependedOn
+
+Get-Service | Where Status -eq "Running" | Out-GridView
 
 Get-CimInstance -ClassName Win32_LogicalDisk
 Get-CimInstance -ClassName Win32_Processor
@@ -42,3 +52,6 @@ https://collectingwisdom.com/powershell-get-service-status/
 https://forums.powershell.org/t/get-service-with-if-else-checks/20535/5
 https://www.sans.org/blog/powershell-getting-object-properties-for-windows-service-dependencies/
 https://www.serverwatch.com/guides/checking-the-status-of-services-on-windows-clients/
+https://www.sharepointdiary.com/2022/04/how-to-use-powershell-get-service-cmdlet.html
+
+https://www.thewindowsclub.com/generate-list-of-windows-services-using-powershell
