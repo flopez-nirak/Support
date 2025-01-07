@@ -2,6 +2,9 @@
 Stop-Service -Name "Spooler"
 Start-Service -Name "Spooler"
 Restart-Service -Name "Spooler"
+Get-Service -Name "com.docker.service"
+
+-----------------------------------------
 
 get-process 
 
