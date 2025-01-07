@@ -41,6 +41,9 @@ Get-Command -noun cimsession
 Get-WmiObject win32_operatingsystem | Format-List
  Get-WMIObject Win32_Service  | Where {$_.State -eq "Running"} | FT -Auto
 
+Get-ScheduledTask
+https://www.thewindowsclub.com/find-scheduled-tasks-queued-status-windows-powershell
+
 
 ref.:
 https://ss64.com/ps/get-ciminstance.html
