@@ -11,7 +11,7 @@ Get-CimInstance -ClassName Win32_LogicalDisk
 Get-CimInstance -ClassName Win32_Processor
 Get-CimInstance -ClassName Win32_ComputerSystem
 
-
+Get-CimInstance 'CIM_Service'
 Get-CimInstance -ClassName Win32_LogicalDisk | Out-File -FilePath C:\test.txt
 
 2024-12-12   Get-CimInstance -Namespace root\wmi -ClassName MSAcpi_ThermalZoneTemperature
