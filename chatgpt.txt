@@ -8,3 +8,7 @@ https://help.openai.com/en/collections/3742473-chatgpt
 https://platform.openai.com/docs/concepts
 
 
+https://platform.openai.com/tokenizer
+https://openai.com/news/?limit=18
+
+https://github.com/collectivecloudperu/openai-api-javascript
