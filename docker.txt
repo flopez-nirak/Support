@@ -29,4 +29,6 @@ https://www.youtube.com/shorts/-Y8GJwis0yg
 links interes
 https://www.docker.com/blog/how-to-fix-and-debug-docker-containers-like-a-superhero/
 https://medium.com/@ckseet/pulling-docker-information-with-docker-inspect-21d463a9393a
+https://docs.docker.com/engine/cli/formatting/
+
 
