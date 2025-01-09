@@ -11,8 +11,16 @@ docker network connect <nombre_red> <nombre_contenedor>
 docker run -d --name <nombre_contenedor> -e <variable>=<valor> <imagen>
 
 comandos avanzados:
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' firebird-db
+docker container ls --all
+
 Como reiniciar un contenedor de docker 
 https://www.youtube.com/shorts/HNqSUfp8j3g
 
 Como liberar espacio de disco en Docker - logs
 https://www.youtube.com/shorts/-Y8GJwis0yg
+
+
+
+links interes
+https://www.docker.com/blog/how-to-fix-and-debug-docker-containers-like-a-superhero/
