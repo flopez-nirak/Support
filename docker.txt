@@ -15,6 +15,8 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' fire
 docker container ls --all
 docker container inspect fire1
 docker container inspect fire1 --format='{{.State.StartedAt}}'
+docker container inspect fire1 | jq '.[] | .State'
+
 
 Como reiniciar un contenedor de docker 
 https://www.youtube.com/shorts/HNqSUfp8j3g
@@ -26,3 +28,5 @@ https://www.youtube.com/shorts/-Y8GJwis0yg
 
 links interes
 https://www.docker.com/blog/how-to-fix-and-debug-docker-containers-like-a-superhero/
+https://medium.com/@ckseet/pulling-docker-information-with-docker-inspect-21d463a9393a
+
