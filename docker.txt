@@ -13,6 +13,8 @@ docker run -d --name <nombre_contenedor> -e <variable>=<valor> <imagen>
 comandos avanzados:
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' firebird-db
 docker container ls --all
+docker container inspect fire1
+docker container inspect fire1 --format='{{.State.StartedAt}}'
 
 Como reiniciar un contenedor de docker 
 https://www.youtube.com/shorts/HNqSUfp8j3g
