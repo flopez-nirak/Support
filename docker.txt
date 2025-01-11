@@ -1,6 +1,9 @@
 
 docker info
+docker system df
+docker info | grep -iE "CPUs|Memory"
 
+------
 docker compose version
 docker compose
 docker run -it ubuntu bash
@@ -26,7 +29,7 @@ https://www.youtube.com/shorts/HNqSUfp8j3g
 Como liberar espacio de disco en Docker - logs
 https://www.youtube.com/shorts/-Y8GJwis0yg
 
-
+https://hands-on.cloud/docker/
 
 links interes
 https://www.docker.com/blog/how-to-fix-and-debug-docker-containers-like-a-superhero/
