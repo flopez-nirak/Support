@@ -1,4 +1,6 @@
 
+docker info
+
 docker compose version
 docker compose
 docker run -it ubuntu bash
@@ -31,7 +33,9 @@ https://www.docker.com/blog/how-to-fix-and-debug-docker-containers-like-a-superh
 https://medium.com/@ckseet/pulling-docker-information-with-docker-inspect-21d463a9393a
 https://docs.docker.com/engine/cli/formatting/
 https://docs.docker.com/engine/cli/formatting/
+https://gist.github.com/efrecon/8ce9c75d518b6eb863f667442d7bc679
 
-
+::: flujo
+https://hands-on.cloud/docker/inspect-docker-container-image/
 
 
