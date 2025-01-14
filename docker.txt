@@ -22,10 +22,11 @@ docker container inspect fire1
 docker container inspect fire1 --format='{{.State.StartedAt}}'
 docker container inspect fire1 | jq '.[] | .State'
 
-------
+--2025----
 docker create --name suspect-container suspect-image:latest
 docker export suspect-container > suspect-container.tar
-
+docker network prune [OPTIONS]
+-----
 Como reiniciar un contenedor de docker 
 https://www.youtube.com/shorts/HNqSUfp8j3g
 
