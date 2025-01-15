@@ -34,6 +34,7 @@ Como liberar espacio de disco en Docker - logs
 https://www.youtube.com/shorts/-Y8GJwis0yg
 
 https://hands-on.cloud/docker/
+https://www.howtogeek.com/devops/how-to-install-and-get-started-with-docker-desktop-on-linux/
 
 links interes
 https://www.docker.com/blog/how-to-fix-and-debug-docker-containers-like-a-superhero/
