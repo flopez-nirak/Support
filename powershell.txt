@@ -55,6 +55,9 @@ Get-PSDrive
 
 Get-PhysicalDisk 
 Get-PhysicalDisk | FL
+
+Get-PhysicalDisk | select Model, FriendlyName, SerialNumber, Size, BusType, MediaType, OperationalStatus|Format-Table 
+
 https://www.action1.com/how-to-get-a-pc-hard-drive-information-using-powershell/
 -------------------------------------------------------------------------------
 
