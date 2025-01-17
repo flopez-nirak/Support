@@ -38,6 +38,7 @@ Get-CimInstance Win32_Process
 Get-CimInstance Win32_Process -Filter 'name = "explorer.exe"' | 
     Invoke-CimMethod -MethodName getowner
 
+
 Get-Command -noun cimsession
 
 
@@ -47,6 +48,15 @@ Get-WmiObject win32_operatingsystem | Format-List
 Get-ScheduledTask
 https://www.thewindowsclub.com/find-scheduled-tasks-queued-status-windows-powershell
 
+:: Disk
+Get-Volume
+Get-PSDrive
+
+
+Get-PhysicalDisk 
+Get-PhysicalDisk | FL
+https://www.action1.com/how-to-get-a-pc-hard-drive-information-using-powershell/
+-------------------------------------------------------------------------------
 
 ref.:
 https://ss64.com/ps/get-ciminstance.html
