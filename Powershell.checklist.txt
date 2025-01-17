@@ -1,1 +1,6 @@
+
+
 Test-NetConnection google.com -Port 80
+
+get-content C:\tools\holamundo.exe
+
