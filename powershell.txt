@@ -1,4 +1,5 @@
-	
+Get-History ; Clear-History
+-----------------------------------------	
 Stop-Service -Name "Spooler"
 Start-Service -Name "Spooler"
 Restart-Service -Name "Spooler"
@@ -63,6 +64,7 @@ https://winnotas.com/como-obtener-informacion-sobre-los-discos-usando-windows-po
 -------------------------------------------------------------------------------
 
 ref.:
+https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.core/about/about_history?view=powershell-7.4
 https://ss64.com/ps/get-ciminstance.html
 https://stackoverflow.com/questions/76728267/get-ciminstance-pipe-in-text-file
 https://stackoverflow.com/questions/61788489/what-do-get-wmiobject-get-ciminstance-actually-do
