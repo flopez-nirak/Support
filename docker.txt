@@ -35,6 +35,7 @@ https://www.youtube.com/shorts/-Y8GJwis0yg
 
 https://hands-on.cloud/docker/
 https://www.howtogeek.com/devops/how-to-install-and-get-started-with-docker-desktop-on-linux/
+https://forums.docker.com/t/how-to-delete-cache/5753
 
 links interes
 https://www.docker.com/blog/how-to-fix-and-debug-docker-containers-like-a-superhero/
