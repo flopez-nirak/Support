@@ -16,3 +16,9 @@ Measure-Command {Pathient.exe} | % TotalSeconds
 
 :route
 Test-NetConnection sammart.in -TraceRoute 
+
+
+::: ref.
+https://woshub.com/checking-tcp-port-response-using-powershell/
+
+
