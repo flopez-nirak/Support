@@ -1,7 +1,18 @@
 
 
-Test-NetConnection google.com -Port 80
+Test-NetConnection google.com -Port 80     // tnc  -InformationLevel Detailed
 Measure-Command {Test-NetConnection google.com -Port 80} | % TotalSeconds 
 
 get-content C:\tools\holamundo.exe
 
+Test-NetConnection google.com -Port 80
+Measure-Command {Test-NetConnection google.com -Port 80} | % TotalSeconds
+Measure-Command {Pathient.exe}
+Measure-Command {Pathient.exe} | % TotalSeconds
+
+:Telnet
+(New-Object System.Net.Sockets.TcpClient).ConnectAsync("google.com", 80).Wait(100)
+[System.Net.Sockets.TcpClient]::new().ConnectAsync("google.com", 80).Wait(100) 
+
+:route
+Test-NetConnection sammart.in -TraceRoute 
