@@ -20,5 +20,6 @@ Test-NetConnection sammart.in -TraceRoute
 
 ::: ref.
 https://woshub.com/checking-tcp-port-response-using-powershell/
+https://techexpert.tips/es/powershell-es/powershell-pruebe-la-conectividad-del-puerto-tcp/
 
 
