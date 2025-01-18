@@ -1,3 +1,4 @@
+$PSVersionTable
 Get-History ; Clear-History
 -----------------------------------------	
 Stop-Service -Name "Spooler"
