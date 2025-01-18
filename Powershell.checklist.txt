@@ -28,6 +28,7 @@ Test-NetConnection sammart.in -TraceRoute
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 
 ::: ref.
+*****  https://wragg.io/using-test-netconnection-to-diagnose-network-connectivity/
 update powershell: https://www.softzone.es/windows/como-se-hace/instalar-actualizar-powershell/
 https://pnp.github.io/powershell/articles/installation.html
 
