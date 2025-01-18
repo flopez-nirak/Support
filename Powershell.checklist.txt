@@ -14,6 +14,13 @@ Measure-Command {Pathient.exe} | % TotalSeconds
 (New-Object System.Net.Sockets.TcpClient).ConnectAsync("google.com", 80).Wait(100)
 [System.Net.Sockets.TcpClient]::new().ConnectAsync("google.com", 80).Wait(100) 
 
+>$Env:PSModulePath -split (';')
+>$PROFILE | Select-Object *Host* | Format-List
+>Get-ChildItem -Path $PSHOME -Filter *Core*Policy*
+>Get-WinEvent -ListLog *PowerShell*
+https://learn.microsoft.com/es-es/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.4
+
+
 :route
 Test-NetConnection sammart.in -TraceRoute 
 
@@ -26,4 +33,5 @@ update powershell: https://www.softzone.es/windows/como-se-hace/instalar-actuali
 https://woshub.com/checking-tcp-port-response-using-powershell/
 https://techexpert.tips/es/powershell-es/powershell-pruebe-la-conectividad-del-puerto-tcp/
 
-
+:::Actualizar Windows con comandos de MS-DOS
+https://www.softzone.es/windows/como-se-hace/actualizar-windows-cmd-powershell/
