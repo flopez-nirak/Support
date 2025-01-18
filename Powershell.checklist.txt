@@ -19,6 +19,7 @@ Test-NetConnection sammart.in -TraceRoute
 
 
 ::: ref.
+update powershell: iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
 https://woshub.com/checking-tcp-port-response-using-powershell/
 https://techexpert.tips/es/powershell-es/powershell-pruebe-la-conectividad-del-puerto-tcp/
 
