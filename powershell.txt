@@ -64,6 +64,8 @@ https://www.action1.com/how-to-get-a-pc-hard-drive-information-using-powershell/
 https://winnotas.com/como-obtener-informacion-sobre-los-discos-usando-windows-powershell/
 https://es.easeus.com/computer-instruction/powershell-obtener-espacio-en-disco.html
 -------------------------------------------------------------------------------
+https://www.urtech.ca/2016/07/solved-how-to-determine-what-version-of-powershell-you-have-installed/amp/?gad_source=1&gclid=Cj0KCQiAv628BhC2ARIsAIJIiK8sXngDItBi9UFYnFhy8jKtRlrKWRV5nfD8jSgB4257-CKWmtHTet0aAgQLEALw_wcB
+
 
 ref.:
 https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.core/about/about_history?view=powershell-7.4
