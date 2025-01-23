@@ -1,6 +1,6 @@
 
 
-Test-NetConnection google.com -Port 80     // tnc  -InformationLevel Detailed
+Test-NetConnection google.com -Port 80     // tnc  -InformationLevel Detailed //10.68.65.40
 Measure-Command {Test-NetConnection google.com -Port 80} | % TotalSeconds 
 
 get-content C:\tools\holamundo.exe
