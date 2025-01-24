@@ -1,5 +1,5 @@
-$PSVersionTable
-Get-History ; Clear-History
+$PSVersionTable			 | select -Last 10
+Get-History ; Clear-History; (Get-PSReadlineOption).HistorySavePath  d:\PowerShellHistory.txt
 -----------------------------------------	
 Stop-Service -Name "Spooler"
 Start-Service -Name "Spooler"
