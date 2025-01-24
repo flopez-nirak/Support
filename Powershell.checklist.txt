@@ -38,3 +38,7 @@ https://techexpert.tips/es/powershell-es/powershell-pruebe-la-conectividad-del-p
 
 :::Actualizar Windows con comandos de MS-DOS
 https://www.softzone.es/windows/como-se-hace/actualizar-windows-cmd-powershell/
+
+New-Event
+https://www.scriptrunner.com/en/blog/events-powershell-net/
+
