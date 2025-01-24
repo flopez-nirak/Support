@@ -3,6 +3,8 @@ Get-History ; Clear-History; (Get-PSReadlineOption).HistorySavePath  d:\PowerShe
 		Select-String "docker" (Get-PSReadlineOption).HistorySavePath
 		Get-Content (Get-PSReadlineOption).HistorySavePath | Select-String "docker"
 		[Microsoft.PowerShell.PSConsoleReadLine]::GetHistoryItems()
+	$MaximumHistoryCount = 500 
+
 -----------------------------------------	
 Stop-Service -Name "Spooler"
 Start-Service -Name "Spooler"
