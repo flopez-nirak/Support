@@ -1,7 +1,8 @@
-$PSVersionTable			 | select -Last 10    notepad (Get-PSReadlineOption).HistorySavePath
+$PSVersionTable			 | select -Last 10   | more	 notepad (Get-PSReadlineOption).HistorySavePath
 Get-History ; Clear-History; (Get-PSReadlineOption).HistorySavePath  d:\PowerShellHistory.txt
 		Select-String "docker" (Get-PSReadlineOption).HistorySavePath
 		Get-Content (Get-PSReadlineOption).HistorySavePath | Select-String "docker"
+		[Microsoft.PowerShell.PSConsoleReadLine]::GetHistoryItems()
 -----------------------------------------	
 Stop-Service -Name "Spooler"
 Start-Service -Name "Spooler"
