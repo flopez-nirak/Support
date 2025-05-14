@@ -42,3 +42,4 @@ https://www.softzone.es/windows/como-se-hace/actualizar-windows-cmd-powershell/
 New-Event
 https://www.scriptrunner.com/en/blog/events-powershell-net/
 
+revisar
