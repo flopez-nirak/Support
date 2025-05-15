@@ -3,7 +3,7 @@
 - crear proyectos
 dotnet new console -n HolaMundoApp
 dotnet new console --framework net6.0 --use-program-main
-
+dotnet new console  -n pdf.password --framework net8.0 --use-program-main
 
   dotnet new web -o HolaMundoApi  // crear una nueva aplicación con una Minimal API:
 
