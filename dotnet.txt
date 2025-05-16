@@ -1,4 +1,4 @@
-
+++++
 
 - crear proyectos
 dotnet new console -n HolaMundoApp
