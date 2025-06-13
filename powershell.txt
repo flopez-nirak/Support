@@ -10,6 +10,7 @@ Stop-Service -Name "Spooler"
 Start-Service -Name "Spooler"
 Restart-Service -Name "Spooler"
 Get-Service -Name "com.docker.service"
+Get-Service | Where-Object { $_.Name -like "TuPalabra*" } | ForEach-Object { Stop-Service -Name $_.Name -Force }
 
 -----------------------------------------
 
