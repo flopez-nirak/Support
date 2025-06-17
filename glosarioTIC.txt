@@ -1,1 +1,7 @@
 
+
+
+
+seed  un conjunto de datos iniciales que se cargan en una base de datos para su uso en pruebas o como datos de referencia. 
+
+
