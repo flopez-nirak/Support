@@ -10,7 +10,7 @@ dotnet new console  -n pdf.password --framework net8.0 --use-program-main
 dotnet new webapp -o SignalRApp
 dotnet add package Microsoft.AspNetCore.SignalR  Agrega el paquete SignalR al proyecto: Instala el paquete de SignalR:
 
-https://www.youtube.com/shorts/wNX1IMnlWzA      -- Reintentos con Polly | Aplicación Resiliente | C# .NET #shorts
+https://www.youtube.com/shorts/wNX1IMnlWzA      -- Reintentos con Polly politica de reintentos | Aplicación Resiliente | C# .NET #shorts
 
 
 - Instalar el certificado de desarrollo: Ejecuta este comando en la terminal para instalar el certificado HTTPS de desarrollo en tu sistema:
