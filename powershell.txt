@@ -13,6 +13,17 @@ Get-Service -Name "com.docker.service"
 Get-Service | Where-Object { $_.Name -like "TuPalabra*" } | ForEach-Object { Stop-Service -Name $_.Name -Force }
 
 -----------------------------------------
+Comando recomendado
+Copy-Item -Path "$env:USERPROFILE\Desktop\*" -Destination "E:\" -Recurse -Force
+
+Explicación:
+-Path "$env:USERPROFILE\Desktop\*" → todos los elementos del escritorio.
+-Destination "E:\" → raíz de tu pendrive (ajusta la letra de unidad si es distinta).
+-Recurse → para copiar subcarpetas completas.
+-Force → copia también archivos ocultos y de sistema.
+
+
+
 
 get-process 
 
