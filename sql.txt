@@ -1,1 +1,17 @@
 
+-- ---------------------------------------------
+-- Para convertir una fecha/hora UTC a hora local (por ejemplo, a la zona horaria de Chile 'Pacific SA Standard Time')
+-- en SQL Server y obtenerla con un SELECT, puedes usar SYSDATETIMEOFFSET() o GETUTCDATE() y luego aplicar la conversión.
+
+--✅ Opción 1: Usar SYSDATETIMEOFFSET() y convertir a zona horaria local
+SELECT GETDATE(), SYSDATETIMEOFFSET() AT TIME ZONE 'UTC' AT TIME ZONE 'Pacific SA Standard Time' AS FechaLocal; --2025-06-27 03:03:16.813	2025-06-26 23:03:16.810 -0400
+
+--✅ Opción 2: Desde una fecha UTC fija o GETUTCDATE()
+SELECT GETDATE(), CAST(GETUTCDATE() AS datetime2) AT TIME ZONE 'UTC' AT TIME ZONE 'Pacific SA Standard Time' AS FechaLocal; -- 2025-06-27 03:04:33.877	2025-06-26 23:04:33.876 -0400
+
+--✅ Si deseas emular DUAL como en Oracle:
+SELECT GETDATE() AS FechaServidor, SYSDATETIMEOFFSET() AT TIME ZONE 'UTC' AT TIME ZONE 'Pacific SA Standard Time' AS FechaLocal FROM (SELECT 1 AS Dummy) AS DUAL; -- 2025-06-27 03:05:44.657	2025-06-26 23:05:44.659 -0400
+
+-- 🔍 Resultado esperado:
+-- Una columna FechaLocal que contenga la fecha/hora actual en horario de Chile (GMT-4 o GMT-3 dependiendo del horario de verano).
+-- ---------------------------------------------
