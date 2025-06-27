@@ -22,7 +22,15 @@ Explicación:
 -Recurse → para copiar subcarpetas completas.
 -Force → copia también archivos ocultos y de sistema.
 
+Nota importante
+Esto fusionará el contenido del escritorio con el pendrive.
+Si quieres hacer un espejo exacto (borrar del pendrive lo que ya no esté en el escritorio), conviene mejor usar robocopy, por ejemplo:
 
+robocopy "$env:USERPROFILE\Desktop" "E:\" /MIR /XJ /XA:H /XA:S
+
+/MIR → espejo (mirror)
+/XJ → excluye puntos de unión (evita bucles)
+/XA:H y /XA:S → asegura incluir archivos ocultos y de sistema
 
 
 get-process 
