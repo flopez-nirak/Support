@@ -15,3 +15,25 @@ SELECT GETDATE() AS FechaServidor, SYSDATETIMEOFFSET() AT TIME ZONE 'UTC' AT TIM
 -- 🔍 Resultado esperado:
 -- Una columna FechaLocal que contenga la fecha/hora actual en horario de Chile (GMT-4 o GMT-3 dependiendo del horario de verano).
 -- ---------------------------------------------
+
+
+✅ OPCIÓN 1: Verificar si la tabla existe, y luego CREATE o ALTER
+📌 Patrón común
+sql
+Copiar
+Editar
+IF OBJECT_ID('dbo.MyTable', 'U') IS NOT NULL
+BEGIN
+    -- ALTER TABLE si ya existe
+    PRINT 'La tabla ya existe. Puedes ALTERAR si es necesario.'
+    -- Ejemplo:
+    -- ALTER TABLE dbo.MyTable ADD NuevaColumna INT;
+END
+ELSE
+BEGIN
+    -- CREATE TABLE si no existe
+    CREATE TABLE dbo.MyTable (
+        Id INT PRIMARY KEY,
+        Nombre NVARCHAR(100)
+    );
+END
