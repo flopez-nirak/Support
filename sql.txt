@@ -37,3 +37,8 @@ BEGIN
         Nombre NVARCHAR(100)
     );
 END
+
+🚀 ¿Qué sigue?
+¿Quieres que diseñe el formulario de derivación siguiendo el flujo correcto?
+
+¿O prefieres que construyamos el diagrama visual del Workflow para documentarlo?
