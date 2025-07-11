@@ -1,7 +1,7 @@
 ++++
 ****
 
-
+dotnet watch run
 - crear proyectos
 
 dotnet new console -n HolaMundoApp
