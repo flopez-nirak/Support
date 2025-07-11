@@ -64,8 +64,8 @@ dotnet ef database update
   4. dotnet restore
 
   
-
-
+app.UseRateLimiter();
+app.MapControllers().RequireRateLimiting("fijo");
 
 
 alias dn='dotnet new'
