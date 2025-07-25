@@ -86,9 +86,9 @@ Get-PhysicalDisk | FL
 Get-PhysicalDisk | select Model, FriendlyName, SerialNumber, Size, BusType, MediaType, OperationalStatus|Format-Table 
 
 
-
-
-
+Get-PnpDevice -Class Bluetooth
+Get-PnpDevice -Class Bluetooth | Where-Object { $_.Status -eq "OK" }
+Enable-PnpDevice -InstanceId "tu_instance_id" -Confirm:$false
 
 
 
