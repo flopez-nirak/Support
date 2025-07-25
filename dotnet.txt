@@ -10,10 +10,6 @@ dotnet new console  -n pdf.password --framework net8.0 --use-program-main
   dotnet new web -o HolaMundoApi  // crear una nueva aplicación con una Minimal API:
 
 dotnet new console  -n EngineWorkFlow --framework net8.0
-dotnet new console  -n EngineWorkFlow --framework net8.0
-dotnet new console  -n EngineWorkFlow --framework net8.0
-dotnet new console  -n EngineWorkFlow --framework net8.0
-dotnet new console  -n EngineWorkFlow --framework net8.0
 
 dotnet new webapp -o SignalRApp
 dotnet add package Microsoft.AspNetCore.SignalR  Agrega el paquete SignalR al proyecto: Instala el paquete de SignalR:
