@@ -90,7 +90,7 @@ Get-PnpDevice -Class Bluetooth
 Get-PnpDevice -Class Bluetooth | Where-Object { $_.Status -eq "OK" }
 Enable-PnpDevice -InstanceId "tu_instance_id" -Confirm:$false
 
-
+powercfg /batteryreport
 
 https://www.action1.com/how-to-get-a-pc-hard-drive-information-using-powershell/
 https://winnotas.com/como-obtener-informacion-sobre-los-discos-usando-windows-powershell/
