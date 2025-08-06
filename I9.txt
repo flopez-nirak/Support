@@ -11,6 +11,6 @@ https://build.fhir.org/ig/HL7/v2-to-fhir/ConceptMap-table-hl70003-to-v2-0003.htm
 https://v2.hl7.org/conformance/HL7v2_Conformance_Methodology_R1_O1_Ballot_Revised_D9_-_September_2019_HL7_v2_Implementation_Guides.html
 https://www.mass.gov/doc/miis-hl7-transfer-specifications-for-health-insurance-companies-pdf/download
 https://www.nyc.gov/assets/doh/downloads/pdf/cir/cir-hl7-qpb-fullguide.pdf
-
+https://www.mcir.org/wp-content/uploads/2017/07/QBP-Onboarding-Document.pdf
 
 .
