@@ -6,7 +6,7 @@ https://www.saludcastillayleon.es/institucion/es/estandaresint.ficheros/1200228-
 https://www.saludcastillayleon.es/institucion/es/estandaresint.ficheros/2566613-1_Mensajeria_ADT_Pacientes.pdf
 https://www.saludcastillayleon.es/institucion/es/publicaciones-consejeria/buscador/guia-mensajeria-hl7.ficheros/327686-total%20guias%20de%20mensajeria.pdf
 
-
-
-
+https://www.youtube.com/watch?v=V0q8uPtEep0&list=PLKb2cBVphNQSaOSWEBBIhtUe68mzb7no9&index=2
+https://build.fhir.org/ig/HL7/v2-to-fhir/ConceptMap-table-hl70003-to-v2-0003.html
+https://v2.hl7.org/conformance/HL7v2_Conformance_Methodology_R1_O1_Ballot_Revised_D9_-_September_2019_HL7_v2_Implementation_Guides.html
 .
