@@ -17,5 +17,5 @@ https://www.mcir.org/wp-content/uploads/2017/07/QBP-Onboarding-Document.pdf
 
 RSP
 https://www.nyc.gov/assets/doh/downloads/pdf/cir/sample-soap-hl7-qbp-and-rsp-messages.pdf
-
+https://www.hl7.eu/HL7v2x/v29/hl7v29msgstruct.htm#RSP_K11
 
