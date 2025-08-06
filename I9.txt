@@ -14,3 +14,8 @@ https://www.nyc.gov/assets/doh/downloads/pdf/cir/cir-hl7-qpb-fullguide.pdf
 https://www.mcir.org/wp-content/uploads/2017/07/QBP-Onboarding-Document.pdf
 
 .
+
+RSP
+https://www.nyc.gov/assets/doh/downloads/pdf/cir/sample-soap-hl7-qbp-and-rsp-messages.pdf
+
+
