@@ -9,4 +9,8 @@ https://www.saludcastillayleon.es/institucion/es/publicaciones-consejeria/buscad
 https://www.youtube.com/watch?v=V0q8uPtEep0&list=PLKb2cBVphNQSaOSWEBBIhtUe68mzb7no9&index=2
 https://build.fhir.org/ig/HL7/v2-to-fhir/ConceptMap-table-hl70003-to-v2-0003.html
 https://v2.hl7.org/conformance/HL7v2_Conformance_Methodology_R1_O1_Ballot_Revised_D9_-_September_2019_HL7_v2_Implementation_Guides.html
+https://www.mass.gov/doc/miis-hl7-transfer-specifications-for-health-insurance-companies-pdf/download
+
+
+
 .
