@@ -12,6 +12,10 @@ Restart-Service -Name "Spooler"
 Get-Service -Name "com.docker.service"
 Get-Service | Where-Object { $_.Name -like "TuPalabra*" } | ForEach-Object { Stop-Service -Name $_.Name -Force }
 
+Kill Service
+Get-WmiObject Win32_Service -Filter "Name='NombreDelServicio'" | Select Name,ProcessId
+taskkill /PID <PID> /F
+
 -----------------------------------------
 Comando recomendado
 Copy-Item -Path "$env:USERPROFILE\Desktop\*" -Destination "E:\" -Recurse -Force
