@@ -15,7 +15,11 @@ https://campus.paho.org/mooc/pluginfile.php/3110876/mod_resource/content/5/Progr
 
 
 ref.;
+https://learn.microsoft.com/es-es/biztalk/adapters-and-accelerators/accelerator-hl7/hl7-versions
 https://www.superdesalud.gob.cl/orientacion-en-salud/como-funciona-el-sistema-de-salud-en-chile/#accordion_0
 https://www.udocz.com/apuntes/542896/mapa-conceptual-del-sistema-de-salud-en-chile
 https://apschile.wordpress.com/wp-content/uploads/2012/06/saludprimeracapa.png
+https://www.disrupciontecnologica.com/hl7/
+
+
 
