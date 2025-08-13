@@ -12,5 +12,8 @@ Curso Virtual: Introducción a la Interoperabilidad y al estándar FHIR
 https://campus.paho.org/mooc/pluginfile.php/3110876/mod_resource/content/5/Programa%20del%20curso%20-%20estandar%20FHIR%20OPS%202023.pdf
 
 
+ref.;
 
+https://www.udocz.com/apuntes/542896/mapa-conceptual-del-sistema-de-salud-en-chile
+https://apschile.wordpress.com/wp-content/uploads/2012/06/saludprimeracapa.png
 
