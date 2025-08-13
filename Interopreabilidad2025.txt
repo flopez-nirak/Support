@@ -31,7 +31,9 @@ https://www.disrupciontecnologica.com/hl7/
 https://rhapsody.health/resources/hl7-messages/
 https://www.interfaceware.com/hl7
 
-
+https://rhapsody.health/resources/hl7-orm-message/
+https://www.ritten.io/post/hl7-message-types
+https://docs.retinalscreenings.com/integration/ORM/TEC_005_Rev_C_Standard_Orders/
 
 
 
