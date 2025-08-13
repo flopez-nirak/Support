@@ -18,7 +18,7 @@ https://ucampus.uchile.cl/m/medicina_catalogo/programa?bajar=1&id=26258
 https://www.informaticaensalud.net/2019/02/cursos-virtuales-en-espanol-de-hl7-fhir-y-mirth-connect-por-hl7-argentina/
 https://ehealthreporter.com/legacy-2762/
 https://www.hl7spain.org/wp-content/uploads/2012/03/HL7cursoVirtual_2012poster_12aEd.pdf
-
+https://vicoacademy.com/curso-hl7-v28-intercambio-electronico-datos-con-mensajeria/
 
 
 
