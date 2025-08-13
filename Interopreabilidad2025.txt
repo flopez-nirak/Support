@@ -13,6 +13,14 @@ https://campus.paho.org/es
 Curso Virtual: Introducción a la Interoperabilidad y al estándar FHIR
 https://campus.paho.org/mooc/pluginfile.php/3110876/mod_resource/content/5/Programa%20del%20curso%20-%20estandar%20FHIR%20OPS%202023.pdf
 
+curso
+https://ucampus.uchile.cl/m/medicina_catalogo/programa?bajar=1&id=26258
+https://www.informaticaensalud.net/2019/02/cursos-virtuales-en-espanol-de-hl7-fhir-y-mirth-connect-por-hl7-argentina/
+https://ehealthreporter.com/legacy-2762/
+https://www.hl7spain.org/wp-content/uploads/2012/03/HL7cursoVirtual_2012poster_12aEd.pdf
+
+
+
 
 ref.;
 https://learn.microsoft.com/es-es/biztalk/adapters-and-accelerators/accelerator-hl7/hl7-versions
@@ -20,6 +28,19 @@ https://www.superdesalud.gob.cl/orientacion-en-salud/como-funciona-el-sistema-de
 https://www.udocz.com/apuntes/542896/mapa-conceptual-del-sistema-de-salud-en-chile
 https://apschile.wordpress.com/wp-content/uploads/2012/06/saludprimeracapa.png
 https://www.disrupciontecnologica.com/hl7/
+https://rhapsody.health/resources/hl7-messages/
+https://www.interfaceware.com/hl7
+
+
+
+
+
+
+
+
+
+
+
 
 
 
