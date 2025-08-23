@@ -6,6 +6,7 @@ Measure-Command {Test-NetConnection google.com -Port 80} | % TotalSeconds
 get-content C:\tools\holamundo.exe
 
 Test-NetConnection google.com -Port 80
+
 Measure-Command {Test-NetConnection google.com -Port 80} | % TotalSeconds
 Measure-Command {Pathient.exe}
 Measure-Command {Pathient.exe} | % TotalSeconds
